@@ -1,0 +1,26 @@
+# Challenge data and derived outputs must never be committed (synthetic-data use agreement)
+*.csv
+*.tsv
+*.txt
+*.raw
+*.bed
+*.bim
+*.fam
+*.pgen
+*.pvar
+*.psam
+*.sscore
+*.glm.*
+*.xlsx
+*.xls
+*.hwpx
+*.hwp
+*.pdf
+*.png
+*.jpg
+*.svg
+genomics_*/
+score_files/
+folds/
+.ipynb_checkpoints/
+__pycache__/
