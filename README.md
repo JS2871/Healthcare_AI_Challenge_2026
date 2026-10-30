@@ -2,18 +2,6 @@
 
 This repository contains the code developed for the **KNIH–KSBi Healthcare AI Challenge 2026** (국립보건연구원–한국생명정보학회 공동주관), under the *Cohort-Based Healthcare AI Model Development and Validation* (코호트 기반 헬스케어 인공지능 모델 개발·검증) track.
 
-## Model: K-BAP (Korean Brain Atrophy Prediction)
-
-### Research Objectives
-
-**Objective 1: Quantification of Brain Atrophy Severity**
-
-Integrate atrophy measurements across multiple brain regions into a unified composite score to quantify multidimensional brain atrophy severity and define high-risk groups based on this score.
-
-**Objective 2: Prediction of High-Risk Brain Atrophy**
-
-Develop predictive models using genomic, clinical, and epidemiological data to identify individuals at high risk of brain atrophy prior to MRI examination.
-
 ## Overview
 
 Early identification of people at high risk of dementia may delay progression and extend independent living,
@@ -21,6 +9,17 @@ but assessing that risk early is still hard in clinical practice. This project b
 severity of **brain atrophy**, which is measured from brain-MRI ROI volumes.
 
 Brain imaging is used **only to define the targets**. The predictors are genomic and clinical features.
+
+## Model: K-BAP (Korean Brain Atrophy Prediction)
+
+### K-BAP Objectives
+
+**Objective 1: Quantification of Brain Atrophy Severity**
+Integrate atrophy measurements across multiple brain regions into a unified composite score to quantify multidimensional brain atrophy severity and define high-risk groups based on this score.
+
+**Objective 2: Prediction of High-Risk Brain Atrophy**
+Develop predictive models using genomic, clinical, and epidemiological data to identify individuals at high risk of brain atrophy prior to MRI examination.
+
 
 ## Pipeline
 
